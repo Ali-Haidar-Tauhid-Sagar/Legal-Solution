@@ -1,4 +1,58 @@
 .banner{
     background-image: url('/images/banner.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
 }
+
+.hero-container h1{
+    max-width: 700px;
+}
+
+.hero-container p{
+    max-width: 700px;
+}
+
+.legal-content h1{
+    max-width: 600px;
+}  
+
+.legal-content p{
+    max-width: 600px;
+}
+
+.search-bar{
+    max-width: 30%;
+}
+
+
+/* Responsive part */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .search-bar{
+        max-width: 60%;
+        font-size: 14px;
+        margin-top: -8px;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+/* 
+XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
