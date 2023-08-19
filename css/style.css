@@ -25,6 +25,26 @@
     max-width: 30%;
 }
 
+.carousel-inner {
+    position: relative;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.carousel-content{
+    position: absolute;
+    max-width: 70%;
+    left: 15%;
+    top: 15%;
+}
+
+.frequently-content h1{
+    max-width: 600px;
+}  
+
+.frequently-content p{
+    max-width: 600px;
+}
 
 /* Responsive part */
 /* Small devices (landscape phones, 576px and up) */
@@ -34,7 +54,6 @@
         font-size: 14px;
         margin-top: -8px;
     }
-
  }
 
 /* Medium devices (tablets, 768px and up) */
